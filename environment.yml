@@ -1,0 +1,44 @@
+name: scipyla_2016
+channels:
+    - conda-forge
+    - ioos
+    - r
+dependencies:
+    - python=2.7
+    - basemap
+    - cartopy
+    - ctd
+    - cython
+    - dask
+    - descartes
+    - fiona
+    - folium
+    - gdal==1.11.4
+    - geojson
+    - geojsonio
+    - geopandas
+    - gsw
+    - jupyter
+    - iris
+    - matplotlib
+    - numpy
+    - numba
+    - oceans
+    - oct2py
+    - pandas
+    - pyproj
+    - rasterio
+    - requests
+    - scikit-learn
+    - scipy
+    - seaborn
+    - shapely
+    - statsmodels
+    - sympy
+    - xlrd
+    - xray
+    - fortran-magic
+    - rpy2
+    - r-essentials
+    - r-oce
+    - scikit-image
