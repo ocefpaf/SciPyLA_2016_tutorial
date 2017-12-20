@@ -1,11 +1,10 @@
-name: scipyla_2016
+name: SCIPYLAZZ2016
 channels:
     - conda-forge
-    - ioos
-    - r
 dependencies:
-    - python=2.7
+    - python=3.6
     - basemap
+    - basemap-data-hires
     - cartopy
     - ctd
     - cython
@@ -13,22 +12,26 @@ dependencies:
     - descartes
     - fiona
     - folium
-    - gdal==1.11.4
+    - fortran-magic
     - geojson
     - geojsonio
     - geopandas
     - gsw
-    - jupyter
     - iris
+    - jupyter
     - matplotlib
-    - numpy
     - numba
+    - numpy
     - oceans
     - oct2py
     - pandas
     - pyproj
+    - r-essentials
+    - r-oce
     - rasterio
     - requests
+    - rpy2
+    - scikit-image
     - scikit-learn
     - scipy
     - seaborn
@@ -36,9 +39,4 @@ dependencies:
     - statsmodels
     - sympy
     - xlrd
-    - xray
-    - fortran-magic
-    - rpy2
-    - r-essentials
-    - r-oce
-    - scikit-image
+    - xarray

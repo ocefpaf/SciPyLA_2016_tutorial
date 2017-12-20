@@ -1,9 +1,14 @@
-# SciPyLA 2016 Tutorial
+# SciPyLA Tutorial
+## Python for Geoscientists 2016-16-5
 
-Python for Geoscientists (2016/05/16)
+You can create and run the ``conda`` environment for this notebook by issuing the following command on a terminal:
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/ocefpaf/SciPyLA_2016_tutorial)
+```shell
+conda env create --name SCIPYLAZZ2016 --file environment.yml
+source activate SCIPYLAZZ2016
+jupyter notebook
+```
 
-Rendered version:
+to install ``conda`` see [this tutorial](http://ioos.github.io/notebooks_demos/other_resources).
 
-http://nbviewer.jupyter.org/format/slides/github/ocefpaf/SciPyLA_2016_tutorial/blob/master/index.ipynb#/
+You can also try the notebooks on your browser thanks with [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ocefpaf/SciPyLA_2016_tutorial/master).
